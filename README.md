@@ -9,4 +9,4 @@ Etudiant en médiamatique depuis 2025
 ## Mon projet
 <br>Pas encore<br>
 ## Comment me trouver
-<br>TheBalaboo
+<br><b>TheBalaboo</b>
