@@ -2,11 +2,11 @@
 Etudiant en médiamatique depuis 2025
 ## Ce que je veux apprendre
 <ul>
-  Sécurité
-  Interface utilisateur
-  Animation
+  <li>Sécurité</li>
+  <li>Interface utilisateur</li>
+  <li>Animation web</li>
 </ul>
 ## Mon projet (idée en une phrase)
-Pas encore
+<br>Pas encore
 ## Comment me trouver
-TheBalaboo
+<br>TheBalaboo
