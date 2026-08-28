@@ -5,6 +5,6 @@ Etudiant en médiamatique depuis 2025
 - Interface utilisateur
 - Animation web
 ## Mon projet
-<br>Pas encore<br>
+Pas encore
 ## Comment me trouver
-<br><b>TheBalaboo</b>
+<b>TheBalaboo</b>
