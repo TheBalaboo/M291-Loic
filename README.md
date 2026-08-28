@@ -12,4 +12,5 @@ Pas encore
 - [GSAP](https://gsap.com/community/)
 - [Awwward](https://www.awwwards.com/sites/)
 - [Terraink](https://terraink.app/)
-
+## En ligne
+Page profil : https://thebalaboo.github.io/M291-Loic/ 
