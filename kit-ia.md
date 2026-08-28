@@ -7,12 +7,12 @@ Règle : quota épuisé → je change d'outil. Je ne paie jamais.
 | Priorité | Outil | Offre 0 € | Quota connu (16.08.2026) | Compte créé ? | Remarque perso |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Copilot dans VS Code | Free | 2000 suggestions / mois · chat limité (voir page Plans du jour) | oui  | |
-| 1b | Copilot via Education | Pro si statut **vérifié** | conditions : education.github.com aujourd'hui | oui/ attente | |
+| 1b | Copilot via Education | Pro si statut **vérifié** | conditions : education.github.com aujourd'hui | attente | |
 | 2 | Claude (claude.ai) | oui | quota journalier, chiffre non publié | oui | |
-| 3 | ChatGPT (chatgpt.com) | oui | chats texte larges ; limites images/fichiers | oui| |
+| 3 | ChatGPT (chatgpt.com) | oui | chats texte larges ; limites images/fichiers | oui| Adieu mon bébé je t'abandonne |
 | 4 | Gemini (gemini.google.com) | oui | limites « standard », chiffre non publié | oui | |
 | 5 | Grok (grok.com) | non | Free officiel, « generous limits », pas de chiffre fixe | pas encore | |
-| 6 | Cursor Hobby | oui, sans carte | Agent limité, pas de chiffre officiel | oui | |
+| 6 | Cursor Hobby | oui, sans carte | Agent limité, pas de chiffre officiel | non | |
  
 ## Mon ordre si ça sature
 1. Claude
