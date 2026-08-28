@@ -7,6 +7,6 @@ Etudiant en médiamatique depuis 2025
   <li>Animation web</li>
 </ul>
 ## Mon projet
-<br>Pas encore
+<br>Pas encore<br>
 ## Comment me trouver
 <br>TheBalaboo
