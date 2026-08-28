@@ -6,7 +6,7 @@ Etudiant en médiamatique depuis 2025
   <li>Interface utilisateur</li>
   <li>Animation web</li>
 </ul>
-## Mon projet (idée en une phrase)
+## Mon projet
 <br>Pas encore
 ## Comment me trouver
 <br>TheBalaboo
