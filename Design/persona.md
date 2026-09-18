@@ -24,5 +24,5 @@ Des filtres difficiles à trouver, des informations incomplètes sur les balades
 
 ## Trois faits utiles sur le design :
 1. Les filtres principaux doivent être visibles et rapides à utiliser sur mobile.
-<br>2. Les informations essentielles — durée, distance, difficulté, type de route, paysage et type de moto — doivent être visibles directement dans les résultats.
-<br>3. La fiche d’une balade doit proposer un bouton clair permettant d’ouvrir directement l’itinéraire dans Google Maps.
+2. Les informations essentielles — durée, distance, difficulté, type de route, paysage et type de moto — doivent être visibles directement dans les résultats.
+3. La fiche d’une balade doit proposer un bouton clair permettant d’ouvrir directement l’itinéraire dans Google Maps.
