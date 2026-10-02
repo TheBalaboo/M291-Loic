@@ -136,7 +136,7 @@ Le design doit rester simple et lisible, avec une priorité donnée aux informat
 
 - **À définir**
 
-Les couleurs précises seront définies pendant la phase de maquettes.
+Les couleurs seront définies pendant la phase de maquettes.
 
 ## Interdits
 
