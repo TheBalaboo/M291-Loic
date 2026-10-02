@@ -46,7 +46,7 @@ Il souhaite trouver rapidement une balade adaptée sans devoir consulter plusieu
 - Lancer la recherche
 
 **Bouton principal :**
-- « Voir les résultats »
+- « Appliquer la sélection »
 
 ### Écran 2 — Liste des balades / résultats filtrés
 
@@ -70,7 +70,7 @@ Il souhaite trouver rapidement une balade adaptée sans devoir consulter plusieu
 - Ouvrir la fiche détaillée d’une balade
 
 **Bouton principal :**
-- « Modifier les filtres »
+- « Supprimer les filtres »
 
 ### Écran 3 — Fiche détaillée d’une balade
 
@@ -95,8 +95,9 @@ Il souhaite trouver rapidement une balade adaptée sans devoir consulter plusieu
 - Revenir aux résultats
 - Ouvrir l’itinéraire dans Google Maps
 
-**Bouton principal :**
+**Boutons principaux :**
 - « Ouvrir dans Google Maps »
+- « Revenir aux itinéraires »
 
 ### Écran large — Liste des balades avec filtres
 
@@ -112,7 +113,7 @@ Il souhaite trouver rapidement une balade adaptée sans devoir consulter plusieu
 - Ouvrir une fiche détaillée
 
 **Bouton principal :**
-- « Voir la balade »
+- « Effacer la sélection »
 
 ## Fonctionnalités essentielles — MVP
 
@@ -133,10 +134,7 @@ Le design doit rester simple et lisible, avec une priorité donnée aux informat
 
 ## Palette
 
-- **Fond :** sombre ou gris très foncé
-- **Texte :** blanc ou gris très clair
-- **Accent :** couleur vive à définir
-- **Attention / erreur :** rouge
+- **À définir**
 
 Les couleurs précises seront définies pendant la phase de maquettes.
 
