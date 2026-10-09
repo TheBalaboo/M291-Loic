@@ -14,7 +14,7 @@
 « C’est une appli pour quoi ? »
 
 **Réponse du testeur :**  
-« Une application de balade en moto. Mais j’ai compris grâce aux noms de balades et aux distances que c’était pour de la moto. Au premier abord, j’avais pensé à de la randonnée. »
+« Une application de balade en moto. Mais j’ai compris grâce aux noms de balades, au nom du site et aux distances que c’était pour de la moto. Au premier abord, j’avais pensé à de la randonnée. »
 
 **Écart avec l’intention :**  
 Le testeur comprend finalement qu’il s’agit de balades à moto, mais pas immédiatement.
