@@ -84,9 +84,8 @@ Il utilise principalement son smartphone et veut pouvoir chercher une balade, co
 - Le type de paysage
 - Le point de départ
 - Le point d’arrivée
-- Une carte ou un aperçu du tracé
+- Une carte / aperçu du tracé
 - Une description
-- Des informations pratiques
 
 **On peut y faire :**
 - Consulter toutes les informations de la balade
@@ -105,7 +104,7 @@ Il utilise principalement son smartphone et veut pouvoir chercher une balade, co
 - Les informations principales de chaque balade
 
 **On peut y faire :**
-- Modifier les filtres sans quitter la page
+- Modifier ou supprimer les filtres sans quitter la page
 - Comparer plusieurs balades
 - Ouvrir une fiche détaillée
 
@@ -127,16 +126,15 @@ Il utilise principalement son smartphone et veut pouvoir chercher une balade, co
 
 L’interface s’inspire des applications de navigation et de l’univers de la route à moto.
 
-Le design reste simple et lisible, avec des contrastes forts, une couleur d’accent utilisée pour les actions importantes et une place importante donnée aux images de routes et de motos.
+Le design reste simple et lisible, et se veut moderne avec des contrastes forts, une couleur d’accent utilisée pour les actions importantes et une place importante donnée aux images de routes et de motos.
 
 ## Palette
 
-- **Fond principal :** `#0E1114`
-- **Fond des cartes :** `#171B1F`
+- **Fond :** `#0E1114`
 - **Texte principal :** `#F3F5F6`
 - **Texte secondaire :** `#9AA3AA`
 - **Accent :** `#D7FF38`
-- **Attention / erreur :** rouge
+- **Attention / erreur :** `#EC0015`
 
 ## Interdits
 
