@@ -17,7 +17,7 @@
 « Une application de balade en moto. Mais j’ai compris grâce aux noms de balades et aux distances que c’était pour de la moto. Au premier abord, j’avais pensé à de la randonnée. »
 
 **Écart avec l’intention :**  
-Le testeur comprend finalement qu’il s’agit d’une application de balades à moto, mais ce n’est pas évident au premier regard. La maquette ne mentionne pas directement la moto et peut donc d’abord faire penser à une application de randonnée.
+Le testeur comprend finalement qu’il s’agit d’une application de balades à moto, mais ce n’est pas évident au premier regard. La maquette ne mentionne pas directement la moto et peut donc d’abord faire penser à une application de randonnée, notamment avec le terme "balade".
 
 ### Constat
 
