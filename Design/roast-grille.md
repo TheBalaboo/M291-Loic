@@ -1,15 +1,16 @@
-## Grille de roast — e2-1
- 
-Barème : 1 = cassé · 3 = moyen · 5 = ça va
- 
-| Capture         | Lisibilité | Navigation | Feedback | Cohérence | Accessibilité | Phrase précise |
-|-----------------|:----------:|:----------:|:--------:|:---------:|:--------------:|-----------------|
-| 01 mur de texte |     1      |     1      |    2    |     1     |       1        |Le mur de texte est trop petit, on n'arrive pas à lire 
-| 02 labyrinthe   |     2      |     1      |    1     |     2     |       1        |On voit le menu mais il ne donne pas envie d'être cliqué et n'est pas très claire|
-| 03 silence      |     3      |     1      |    1     |     5     |       1        |Le bouton ne porte aucun libellé et n'a ni couleur d'accent ni ombre, donc rien n'indique qu'il est cliquable, ni ce qu'il déclenche.|
-| 04 carnaval     |     1      |     1      |    1     |     1     |       1        |Le contraste des couleurs ne va pas du tout, on n'arrive rien à lire|
- 
-## La pire, pour la présentation
- 
-Capture n° 04 avec 5 point la moins lisible
- 
+# Grille de roast — e2-1
+
+**Barème :** 1 = cassé · 3 = moyen · 5 = ça va
+
+| Capture | Lisibilité | Navigation | Feedback | Cohérence | Accessibilité | Phrase précise |
+|---|:---:|:---:|:---:|:---:|:---:|---|
+| 01 — Mur de texte | 1 | 1 | 2 | 1 | 1 | Le texte est trop petit et trop dense, ce qui rend la lecture difficile. |
+| 02 — Labyrinthe | 2 | 1 | 1 | 2 | 1 | Le menu est visible, mais son fonctionnement n’est pas clair et il ne donne pas envie d’être utilisé. |
+| 03 — Silence | 3 | 1 | 1 | 5 | 1 | Le bouton n’a aucun libellé ni élément visuel indiquant clairement qu’il est cliquable ou ce qu’il déclenche. |
+| 04 — Carnaval | 1 | 1 | 1 | 1 | 1 | Les couleurs créent de très mauvais contrastes et rendent le contenu difficile à lire. |
+
+## La pire pour la présentation
+
+La **capture n°04 — Carnaval** est la moins réussie avec un total de **5 points**.
+
+Le principal problème vient des contrastes et de l’accumulation de couleurs, qui rendent l’interface difficile à lire et à comprendre rapidement.
