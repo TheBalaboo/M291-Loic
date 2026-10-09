@@ -1,16 +1,29 @@
-# M291-Loic
-Etudiant en médiamatique depuis 2025
+# M291 — Loïc Hermann
+
+Étudiant en médiamatique depuis 2025.
+
 ## Ce que je veux apprendre
+
 - Sécurité
 - Interface utilisateur
 - Animation web
+
 ## Mon projet
-Pas encore
-## Comment me trouver
-<b>TheBalaboo</b>
-## Mes 3 sites préférés avec 3 liens Markdown :
+
+**Trajectoire** est une application web permettant de trouver facilement des balades à moto en Suisse romande grâce à différents filtres.
+
+[Voir le dossier design](./Design/)
+
+## Mes 3 sites préférés
+
 - [GSAP](https://gsap.com/community/)
-- [Awwward](https://www.awwwards.com/sites/)
-- [Terraink](https://terraink.app/)
+- [Awwwards](https://www.awwwards.com/sites/)
+- [Terrain](https://terraink.app/)
+
+## Comment me trouver
+
+**GitHub :** TheBalaboo
+
 ## En ligne
-Page profil : https://thebalaboo.github.io/M291-Loic/ 
+
+[Voir ma page profil](https://thebalaboo.github.io/M291-Loic/)
