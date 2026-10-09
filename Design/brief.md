@@ -2,24 +2,22 @@
 
 ## Pitch
 
-Trajectoire est une application web permettant de trouver facilement des balades à moto en Suisse romande grâce à différents filtres.
+Trajectoire est une application web qui permet de trouver facilement des balades à moto en Suisse romande grâce à différents filtres.
 
-Elle s’adresse aux motards qui souhaitent trouver rapidement un itinéraire adapté à leur point de départ, leur temps disponible et au type de route ou de paysage qu’ils recherchent.
+Elle s’adresse aux motards qui veulent trouver rapidement un itinéraire adapté à leur point de départ, leur temps disponible et au type de route ou de paysage qu’ils recherchent.
 
 ## Public
 
 Lucas, 24 ans, est électricien à Lausanne. Il possède une Yamaha MT-07 et fait régulièrement des balades à moto pour le plaisir.
 
-Il roule principalement le week-end, seul ou avec des amis, et organise souvent ses sorties quelques heures ou quelques minutes avant de partir.
+Il roule surtout le week-end, seul ou avec des amis, mais aussi parfois en fin de journée après le travail. Il organise souvent ses sorties peu avant de partir.
 
-Il utilise principalement son smartphone à une main pour chercher une balade, comparer les itinéraires et ouvrir Google Maps.
-
-Il souhaite trouver rapidement une balade adaptée sans devoir consulter plusieurs sites différents.
+Il utilise principalement son smartphone et veut pouvoir chercher une balade, comparer les résultats et ouvrir Google Maps rapidement.
 
 ## Écrans
 
 - Écran 1 : Filtres de recherche
-- Écran 2 : Liste des balades / résultats filtrés
+- Écran 2 : Liste des balades / résultats
 - Écran 3 : Fiche détaillée d’une balade
 - Écran large : Liste des balades avec filtres affichés sur le côté
 
@@ -31,46 +29,46 @@ Il souhaite trouver rapidement une balade adaptée sans devoir consulter plusieu
 - La région
 - Le type de trajet : boucle ou aller simple
 - Le point de départ
-- Le point d’arrivée si le trajet n’est pas une boucle
-- Une tolérance autour du point de départ et/ou d’arrivée
+- Une zone de recherche autour du point de départ
+- Le point d’arrivée si le trajet est un aller simple
+- Une zone de recherche autour du point d’arrivée
 - La durée approximative
 - La distance
 - La difficulté
-- Le type de routes
-- Le type de paysages
+- Le type de route
+- Le type de paysage
 
 **On peut y faire :**
-- Sélectionner ou modifier les critères de recherche
-- Choisir entre une boucle et un trajet avec un point d’arrivée différent
+- Sélectionner ou modifier les critères
+- Choisir entre une boucle et un aller simple
 - Réinitialiser les filtres
-- Lancer la recherche
+- Appliquer la sélection
 
 **Bouton principal :**
 - « Appliquer la sélection »
 
-### Écran 2 — Liste des balades / résultats filtrés
+### Écran 2 — Liste des balades / résultats
 
 **On y voit :**
-- Les filtres actuellement appliqués
-- Le nombre de résultats trouvés
+- Une barre de recherche
+- Un accès aux filtres
+- Le nombre de résultats
 - Une liste de balades sous forme de cartes
 - Pour chaque balade :
-  - Nom
-  - Région
-  - Durée
-  - Distance
-  - Difficulté
-  - Type de route
-  - Type de paysage
+  - Une image
+  - Le nom
+  - La distance
+  - La région
+  - La difficulté
 
 **On peut y faire :**
-- Consulter les résultats correspondant aux filtres
-- Retirer ou modifier certains filtres
-- Réinitialiser les filtres
-- Ouvrir la fiche détaillée d’une balade
+- Parcourir les balades
+- Rechercher un itinéraire
+- Ouvrir ou modifier les filtres
+- Consulter la fiche détaillée d’une balade
 
-**Bouton principal :**
-- « Supprimer les filtres »
+**Action principale :**
+- Ouvrir les détails d’une balade
 
 ### Écran 3 — Fiche détaillée d’une balade
 
@@ -87,17 +85,16 @@ Il souhaite trouver rapidement une balade adaptée sans devoir consulter plusieu
 - Le point de départ
 - Le point d’arrivée
 - Une carte ou un aperçu du tracé
-- Une description de la balade
-- Des informations pratiques utiles
+- Une description
+- Des informations pratiques
 
 **On peut y faire :**
 - Consulter toutes les informations de la balade
 - Revenir aux résultats
 - Ouvrir l’itinéraire dans Google Maps
 
-**Boutons principaux :**
+**Bouton principal :**
 - « Ouvrir dans Google Maps »
-- « Revenir aux itinéraires »
 
 ### Écran large — Liste des balades avec filtres
 
@@ -105,45 +102,48 @@ Il souhaite trouver rapidement une balade adaptée sans devoir consulter plusieu
 - Les filtres dans une colonne latérale
 - Les résultats sous forme de grille
 - Le nombre de balades trouvées
-- Les informations principales sur chaque balade
+- Les informations principales de chaque balade
 
 **On peut y faire :**
 - Modifier les filtres sans quitter la page
 - Comparer plusieurs balades
 - Ouvrir une fiche détaillée
 
-**Bouton principal :**
-- « Effacer la sélection »
+**Action principale :**
+- Ouvrir les détails d’une balade
 
 ## Fonctionnalités essentielles — MVP
 
 1. Afficher une liste de balades à moto stockées dans une base de données.
-2. Filtrer les balades selon plusieurs critères.
+2. Rechercher et filtrer les balades selon plusieurs critères.
 3. Afficher uniquement les balades correspondant aux critères sélectionnés.
 4. Consulter une fiche détaillée pour chaque balade.
-5. Ouvrir l’itinéraire d’une balade dans Google Maps grâce à un lien externe.
-6. Afficher un message clair si aucune balade ne correspond aux critères.
+5. Ouvrir l’itinéraire dans Google Maps grâce à un lien externe.
+6. Afficher un message clair si aucune balade ne correspond à la recherche.
 
 ## Ambiance visuelle
 
-Moderne, dynamique et épurée.
+**Moderne, dynamique et technique.**
 
-L’interface doit évoquer une application de navigation moderne mélangée à l’univers de la route et du road trip à moto.
+L’interface s’inspire des applications de navigation et de l’univers de la route à moto.
 
-Le design doit rester simple et lisible, avec une priorité donnée aux informations utiles et à la recherche rapide.
+Le design reste simple et lisible, avec des contrastes forts, une couleur d’accent utilisée pour les actions importantes et une place importante donnée aux images de routes et de motos.
 
 ## Palette
 
-- **À définir**
-
-Les couleurs seront définies pendant la phase de maquettes.
+- **Fond principal :** `#0E1114`
+- **Fond des cartes :** `#171B1F`
+- **Texte principal :** `#F3F5F6`
+- **Texte secondaire :** `#9AA3AA`
+- **Accent :** `#D7FF38`
+- **Attention / erreur :** rouge
 
 ## Interdits
 
-- Pas de compte obligatoire pour consulter les balades
+- Pas de compte obligatoire
 - Pas de système de connexion utilisateur
-- Pas de navigation GPS intégrée directement dans le site
-- Pas de calcul automatique d’itinéraires
+- Pas de navigation GPS intégrée au site
+- Pas de génération automatique d’itinéraires
 - Pas de filtres cachés dans plusieurs niveaux de menus
 - Pas d’interface surchargée
 - Pas de Bootstrap
@@ -154,9 +154,15 @@ Les couleurs seront définies pendant la phase de maquettes.
 - Conception Mobile First
 - Largeur mobile de référence : environ 390 px
 - HTML5 sémantique
-- CSS moderne
-- JavaScript natif
+- CSS moderne avec variables
+- JavaScript natif sans bibliothèque
 - Interface utilisable au clavier
-- Contrastes respectant au minimum les recommandations WCAG AA
-- Boutons et zones interactives adaptés à une utilisation tactile
+- Contrastes respectant au minimum WCAG AA
+- Boutons et zones interactives adaptés au tactile
 - Interface pensée pour une utilisation rapide sur smartphone
+
+## États importants
+
+- **Aucun résultat :** message « Aucune balade ne correspond à vos critères » avec un bouton pour modifier les filtres.
+- **Filtres appliqués :** le nombre de résultats est mis à jour.
+- **Erreur :** un message clair indique qu’un problème est survenu.
