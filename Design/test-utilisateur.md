@@ -17,21 +17,17 @@
 « Une application de balade en moto. Mais j’ai compris grâce aux noms de balades et aux distances que c’était pour de la moto. Au premier abord, j’avais pensé à de la randonnée. »
 
 **Écart avec l’intention :**  
-Le testeur comprend finalement qu’il s’agit d’une application de balades à moto, mais ce n’est pas évident au premier regard. La maquette ne mentionne pas directement la moto et peut donc d’abord faire penser à une application de randonnée, notamment avec le terme "balade".
+Le testeur comprend finalement qu’il s’agit de balades à moto, mais pas immédiatement.
+
+Cela peut notamment s’expliquer par le terme « balade », mais aussi par les visuels provisoires de la maquette qui représentent principalement des routes et des paysages sans montrer clairement de moto.
 
 ### Constat
 
-Le fonctionnement général de Trajectoire est compris, mais le positionnement moto n’est pas assez explicite immédiatement.
+Le fonctionnement général de Trajectoire est compris, mais son positionnement moto manque d’un indice visuel immédiat.
 
 ### Correctif envisagé
 
-Rendre le sujet plus clair directement dans le titre principal.
-
-**Avant :**  
-« Trouve ta prochaine balade »
-
-**Après :**  
-« Trouve ta prochaine balade à moto »
+Utiliser dans le hero une photographie montrant clairement une moto sur une route afin que le sujet de l’application soit identifiable dès le premier regard.
 
 ---
 
@@ -54,7 +50,7 @@ Non.
 
 ### Constat
 
-Le bouton de filtres est immédiatement identifié. Sa position à côté de la recherche correspond aux habitudes du testeur et ne provoque aucune hésitation.
+Le bouton de filtres est immédiatement identifié. Sa position à côté de la recherche correspond aux habitudes du testeur.
 
 ### Correctif envisagé
 
@@ -62,20 +58,44 @@ Aucun changement nécessaire pour l’accès aux filtres.
 
 ---
 
+## Test de comparaison des cartes
+
+**Consigne :**  
+« Sans utiliser les filtres, quelle balade choisirais-tu si tu voulais faire moins de 100 km et quelque chose de facile ? »
+
+**Réponse du testeur :**  
+« Bah la troisième, Entre vignes et lac. »
+
+**Hésitation observée :**  
+Le testeur a pris environ deux secondes pour lire les trois propositions avant de répondre.
+
+**J’ai aidé :**  
+Non.
+
+### Constat
+
+Les informations principales des cartes permettent de comparer rapidement les balades. La distance et la difficulté sont suffisamment visibles pour identifier la bonne proposition sans utiliser les filtres.
+
+### Correctif envisagé
+
+Aucun changement nécessaire pour la structure des cartes.
+
+---
+
 # Conclusion
 
-Le test montre que la navigation principale est claire et que l’accès aux filtres fonctionne correctement sur smartphone.
+Le test montre que la navigation principale est claire. L’accès aux filtres est immédiatement compris et les cartes permettent de comparer rapidement plusieurs balades.
 
-Le principal problème observé concerne l’identification immédiate du sujet. Le testeur comprend qu’il s’agit de moto après avoir observé les distances et les noms des balades, mais il pense d’abord à une application de randonnée.
+Le principal problème observé concerne l’identification immédiate de l’univers moto. Le testeur comprend le sujet après avoir lu les informations des cartes, mais pense d’abord à une application de randonnée.
 
-L’itération retenue consiste donc à préciser directement le sujet dans le titre principal.
+L’itération retenue consiste donc à renforcer le visuel principal afin de montrer clairement une moto sur une route.
 
 ## Itération avant / après
 
 **Avant :**  
-« Trouve ta prochaine balade »
+Le hero utilise un visuel de route et de paysage sans présence claire d’une moto.
 
 **Après :**  
-« Trouve ta prochaine balade à moto »
+Le hero utilise une photographie montrant clairement une moto sur une route.
 
-Cette modification permet de supprimer l’ambiguïté sans modifier la structure de l’interface.
+Cette modification permet de rendre le positionnement de Trajectoire immédiatement compréhensible tout en conservant le titre « Trouve ta prochaine balade » et la structure actuelle de l’interface.
