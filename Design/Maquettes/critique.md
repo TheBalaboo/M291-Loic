@@ -18,15 +18,15 @@ Une piste efficace pour Lucas, qui veut trouver rapidement une balade, mais qui 
 ## Piste B — Chaleureuse
 
 ### Points forts
-- Les couleurs chaudes donnent une ambiance plus liée au voyage, à la route et au plaisir de rouler.
-- La maquette est plus accueillante tout en gardant les informations faciles à lire.
+- Les couleurs chaudes donnent une ambiance plus accueillante et orientée vers l’évasion.
+- La maquette reste simple à lire et met bien en valeur les images et les balades.
 
 ### Points faibles
-- L’aspect road trip prend davantage de place que le côté pratique de l’application.
-- Elle donne moins l’impression d’un outil de recherche rapide que les pistes A et C.
+- L’univers moto est peu présent : la direction visuelle pourrait aussi convenir à un site de voyage ou de randonnée.
+- Elle donne davantage une impression de découverte et de lifestyle que d’outil pratique pour choisir rapidement un itinéraire.
 
 ### Verdict
-Une bonne piste pour transmettre l’évasion et le plaisir de la balade, mais un peu moins adaptée à Lucas qui cherche souvent un itinéraire peu avant de partir.
+Une piste agréable et adaptée au côté découverte des balades, mais moins cohérente avec l’univers moto et avec l’usage rapide de Lucas.
 
 ---
 
