@@ -49,7 +49,7 @@ C’est la piste qui répond le mieux au besoin de Lucas : une interface rapide 
 
 | Critère | A | B | C |
 | :--- | :---: | :---: | :---: |
-| Lisibilité | Très bonne | Bonne | Très bonne |
+| Lisibilité | Très bonne | Bonne | Bonne |
 | Rapidité d’utilisation | Très bonne | Bonne | Très bonne |
 | Cohérence avec l’univers moto | Faible | Moyenne | Très bonne |
 | Personnalité visuelle | Moyenne | Bonne | Très bonne |
