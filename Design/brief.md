@@ -134,7 +134,7 @@ Le design reste simple et lisible, et se veut moderne avec des contrastes forts,
 - **Texte principal :** `#F3F5F6`
 - **Texte secondaire :** `#9AA3AA`
 - **Accent :** `#D7FF38`
-- **Attention / erreur :** `#EC0015`
+- **Attention / erreur :** `#F23B4B`
 
 ## Interdits
 
