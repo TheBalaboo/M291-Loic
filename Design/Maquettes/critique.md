@@ -51,7 +51,7 @@ C’est la piste qui répond le mieux au besoin de Lucas : une interface rapide 
 | :--- | :---: | :---: | :---: |
 | Lisibilité | Très bonne | Bonne | Très bonne |
 | Rapidité d’utilisation | Très bonne | Bonne | Très bonne |
-| Cohérence avec l’univers moto | Moyenne | Bonne | Très bonne |
+| Cohérence avec l’univers moto | Faible | Moyenne | Très bonne |
 | Personnalité visuelle | Moyenne | Bonne | Très bonne |
 | Cohérence avec Lucas | Très bonne | Bonne | Très bonne |
 
