@@ -5,6 +5,7 @@
 - **Nom :** Lucas Domingues
 - **Date :** 09.10.2026
 - **Appareil utilisé :** Smartphone
+- **Observateur :** Loïc Hermann
 
 ---
 
@@ -16,18 +17,15 @@
 **Réponse du testeur :**  
 « Une application de balade en moto. Mais j’ai compris grâce aux noms de balades, au nom du site et aux distances que c’était pour de la moto. Au premier abord, j’avais pensé à de la randonnée. »
 
-**Écart avec l’intention :**  
+### Observation
+
 Le testeur comprend finalement qu’il s’agit de balades à moto, mais pas immédiatement.
 
-Cela peut notamment s’expliquer par le terme « balade », mais aussi par les visuels provisoires de la maquette qui représentent principalement des routes et des paysages sans montrer clairement de moto.
+La maquette utilise surtout des illustrations de routes et de paysages sans montrer clairement de moto. Le mot « balade » peut également faire penser à de la randonnée.
 
-### Constat
+### Correctif
 
-Le fonctionnement général de Trajectoire est compris, mais son positionnement moto manque d’un indice visuel immédiat.
-
-### Correctif envisagé
-
-Utiliser dans le hero une photographie montrant clairement une moto sur une route afin que le sujet de l’application soit identifiable dès le premier regard.
+Remplacer le visuel principal par une photographie montrant clairement une moto sur une route afin que le sujet soit identifiable dès le premier regard.
 
 ---
 
@@ -36,25 +34,25 @@ Utiliser dans le hero une photographie montrant clairement une moto sur une rout
 **Consigne :**  
 « Montre-moi où tu tapoterais pour filtrer les balades. »
 
-**Le doigt est allé au bon contrôle :**  
-Oui.
+**Résultat :**  
+Le testeur touche directement le bouton « Filtres » en environ 1 seconde.
 
-**Hésitation observée :**  
-Aucune hésitation.
+**Hésitation :**  
+Aucune.
 
-**Ce que le testeur a dit spontanément :**  
+**Remarque spontanée :**  
 « Ouais classique hein, c’est souvent à cet endroit. »
 
-**J’ai aidé :**  
+**Aide nécessaire :**  
 Non.
 
-### Constat
+### Observation
 
-Le bouton de filtres est immédiatement identifié. Sa position à côté de la recherche correspond aux habitudes du testeur.
+L’accès aux filtres est immédiatement compris. Sa position à côté de la barre de recherche correspond aux habitudes du testeur.
 
-### Correctif envisagé
+### Correctif
 
-Aucun changement nécessaire pour l’accès aux filtres.
+Aucun changement nécessaire.
 
 ---
 
@@ -66,17 +64,20 @@ Aucun changement nécessaire pour l’accès aux filtres.
 **Réponse du testeur :**  
 « Bah la troisième, Entre vignes et lac. »
 
-**Hésitation observée :**  
-Le testeur a pris environ deux secondes pour lire les trois propositions avant de répondre.
+**Temps de réponse :**  
+Environ 2 secondes, le temps de lire les trois cartes.
 
-**J’ai aidé :**  
+**Hésitation :**  
+Aucune hésitation particulière.
+
+**Aide nécessaire :**  
 Non.
 
-### Constat
+### Observation
 
-Les informations principales des cartes permettent de comparer rapidement les balades. La distance et la difficulté sont suffisamment visibles pour identifier la bonne proposition sans utiliser les filtres.
+La distance et la difficulté sont suffisamment visibles pour comparer rapidement plusieurs balades et trouver celle qui correspond aux critères demandés.
 
-### Correctif envisagé
+### Correctif
 
 Aucun changement nécessaire pour la structure des cartes.
 
@@ -84,18 +85,28 @@ Aucun changement nécessaire pour la structure des cartes.
 
 # Conclusion
 
-Le test montre que la navigation principale est claire. L’accès aux filtres est immédiatement compris et les cartes permettent de comparer rapidement plusieurs balades.
+Les tests montrent que la navigation principale est claire :
 
-Le principal problème observé concerne l’identification immédiate de l’univers moto. Le testeur comprend le sujet après avoir lu les informations des cartes, mais pense d’abord à une application de randonnée.
+- le bouton de filtres est trouvé immédiatement ;
+- les cartes permettent de comparer rapidement les balades ;
+- aucune aide n’a été nécessaire.
 
-L’itération retenue consiste donc à renforcer le visuel principal afin de montrer clairement une moto sur une route.
+Le principal problème observé concerne l’identification immédiate de l’univers moto. Au premier regard, le testeur pense à une application de randonnée avant de comprendre le sujet.
+
+L’itération retenue porte donc sur le visuel principal.
 
 ## Itération avant / après
 
-**Avant :**  
-Le hero utilise un visuel de route et de paysage sans présence claire d’une moto.
+### Avant
 
-**Après :**  
+![Maquette avant le test utilisateur](tests/avant.png)
+
+Le hero montre principalement une route et un paysage. Aucun élément ne permet d’identifier immédiatement l’univers moto.
+
+### Après
+
+![Maquette après le test utilisateur](tests/apres.png)
+
 Le hero utilise une photographie montrant clairement une moto sur une route.
 
-Cette modification permet de rendre le positionnement de Trajectoire immédiatement compréhensible tout en conservant le titre « Trouve ta prochaine balade » et la structure actuelle de l’interface.
+Cette modification permet de rendre le sujet de Trajectoire plus évident dès le premier regard sans modifier le titre ni la structure de l’interface.
