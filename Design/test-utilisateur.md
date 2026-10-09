@@ -99,13 +99,13 @@ L’itération retenue porte donc sur le visuel principal.
 
 ### Avant
 
-![Maquette avant le test utilisateur](tests/Maquette_avant.png)
+<img src="tests/Maquette_avant.png" alt="Maquette avant le test utilisateur" width="300">
 
 Le hero montre principalement une route et un paysage. Aucun élément ne permet d’identifier immédiatement l’univers moto.
 
 ### Après
 
-![Maquette après le test utilisateur](tests/Maquette_apres.png)
+<img src="tests/Maquette_apres.png" alt="Maquette après le test utilisateur" width="300">
 
 Le hero utilise une photographie montrant clairement une moto sur une route.
 
