@@ -1,28 +1,28 @@
-# Identité & Âge :
-Lucas, 24 ans, électricien à Lausanne. Il possède une Yamaha MT-07 et fait régulièrement des balades pour le plaisir.
+# Persona — Lucas
 
+**Prénom et âge :**  
+Lucas, 24 ans.
 
-## Contexte de vie & Mobilité :
-Il travaille la semaine et profite surtout de ses week-ends pour rouler. Il part seul ou avec des amis et organise souvent ses sorties quelques heures/minutes avant de partir.
+**Occupation :**  
+Électricien à Lausanne. Il possède une Yamaha MT-07 et fait régulièrement des balades à moto pour le plaisir.
 
+**Où et quand il utilise l’app :**  
+Il travaille la semaine et profite surtout de ses week-ends pour rouler, seul ou avec des amis. Il organise souvent ses sorties peu avant de partir. Il va parfois rouler en fin de journée après le travail aussi. 
 
-## Environnement matériel :
-Il utilise principalement son smartphone à une main pour chercher une balade, comparer les itinéraires et ouvrir Google Maps. Il est à l’aise avec les applications mobiles, les cartes et les filtres.
+**Appareil :**  
+Principalement son smartphone. Il est à l’aise avec les applications mobiles, les cartes et les filtres.
 
+**Objectif :**  
+Trouver rapidement une balade adaptée à son point de départ, au temps qu’il a à disposition et au type de route ou de paysage qu’il recherche.
 
-## Objectif principal :
-Trouver en quelques minutes une balade moto adaptée à son point de départ, à son temps disponible, à sa moto et au type de route et/ou de paysage qu’il recherche.
+**Phrase typique :**  
+*« Je veux juste savoir rapidement où rouler cet après-midi sans devoir ouvrir cinq sites différents. »*
 
+**Ce qui le fait fermer l’onglet :**  
+Des filtres difficiles à trouver, des informations incomplètes, une interface trop lente ou compliquée, ou l’obligation de créer un compte.
 
-## Ce qui le fait fermer l’onglet :
-Des filtres difficiles à trouver, des informations incomplètes sur les balades, une interface trop lente ou compliquée, ou l’obligation de créer un compte pour accéder aux itinéraires.
+**3 faits utiles pour le design :**
 
-
-## Sa phrase typique :
-<i>« Je veux juste savoir rapidement où rouler cet après-midi sans devoir ouvrir cinq sites différents. »</i>
-
-
-## Trois faits utiles sur le design :
-1. Les filtres principaux doivent être visibles et rapides à utiliser sur mobile.
-2. Les informations essentielles — durée, distance, difficulté, type de route, paysage et type de moto — doivent être visibles directement dans les résultats.
-3. La fiche d’une balade doit proposer un bouton clair permettant d’ouvrir directement l’itinéraire dans Google Maps.
+1. Les filtres principaux doivent être faciles à trouver et rapides à utiliser sur smartphone.
+2. Les informations permettant de comparer les balades doivent être visibles directement dans les résultats, notamment la distance, la région et la difficulté.
+3. La fiche d’une balade doit proposer un bouton clair pour ouvrir directement l’itinéraire dans Google Maps.
