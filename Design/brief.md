@@ -64,7 +64,7 @@ Il utilise principalement son smartphone et veut pouvoir chercher une balade, co
 **On peut y faire :**
 - Parcourir les balades
 - Rechercher un itinéraire
-- Ouvrir ou modifier les filtres
+- Ouvrir, modifier ou supprimer les filtres
 - Consulter la fiche détaillée d’une balade
 
 **Action principale :**
