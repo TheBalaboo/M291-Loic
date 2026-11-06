@@ -1,102 +1,232 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Loïc | Présentation</title>
-
-    <style>
-        /* Style général de la page */
-        body {
-            margin: 0;
-            font-family: Arial, sans-serif;
-            background-color: #a41b1b;
-            color: #222222;
-        }
-
-        /* Bloc principal */
-        main {
-            width: 90%;
-            max-width: 700px;
-            margin: 60px auto;
-            padding: 40px;
-            box-sizing: border-box;
-            background-color: white;
-            border-radius: 12px;
-        }
-
-        h1 {
-            margin-top: 0;
-            font-size: 42px;
-        }
-
-        h2 {
-            margin-top: 35px;
-            font-size: 24px;
-        }
-
-        p {
-            line-height: 1.6;
-        }
-
-        ul {
-            padding-left: 20px;
-            line-height: 1.8;
-        }
-
-        /* Style du lien GitHub */
-        a {
-            display: inline-block;
-            margin-top: 10px;
-            padding: 12px 20px;
-            background-color: #222222;
-            color: white;
-            text-decoration: none;
-            border-radius: 6px;
-        }
-
-        a:hover {
-            background-color: #444444;
-        }
-
-        @media (max-width: 600px) {
-            main {
-                margin: 20px auto;
-                padding: 25px;
-            }
-
-            h1 {
-                font-size: 34px;
-            }
-        }
-    </style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Trajectoire permet de découvrir des balades à moto en Suisse romande.">
+  <title>Trajectoire — Balades à moto en Suisse romande</title>
+  <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
+  <header class="site-header">
+    <div class="site-header__inner">
+      <a class="brand" href="#" aria-label="Trajectoire, accueil">
+        <span class="brand__mark" aria-hidden="true"></span>
+        <span class="brand__name">Trajectoire</span>
+      </a>
+      <p class="site-context">Suisse romande</p>
+    </div>
+  </header>
 
-    <main>
-        <h1>Bonjour, je suis Loïc.</h1>
+  <main>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="hero__media">
+        <img src="assets/images/hero-moto.png" alt="Motard roulant sur une route de montagne au bord d'un lac alpin">
+        <div class="hero__overlay"></div>
+        <div class="hero__content">
+          <h1 id="hero-title">
+            <span>Trouve ta prochaine</span>
+            <span>balade</span>
+          </h1>
+        </div>
+      </div>
+    </section>
 
-        <p>Étudiant en médiamatique depuis 2025.</p>
+    <form class="search-controls" id="search-form" role="search" action="#" method="get">
+      <div class="search-field">
+        <label class="sr-only" for="ride-search">Rechercher un itinéraire</label>
+        <svg class="search-field__icon" viewBox="0 0 24 24" aria-hidden="true">
+          <circle cx="11" cy="11" r="7"></circle>
+          <path d="m16.5 16.5 4 4"></path>
+        </svg>
+        <input id="ride-search" name="q" type="search" autocomplete="off" placeholder="Rechercher un itinéraire…">
+      </div>
+      <button class="filter-button" id="open-filters" type="button" aria-controls="filters-panel" aria-expanded="false">
+        Filtres
+        <span class="filter-count" id="active-filter-count" hidden></span>
+      </button>
+    </form>
 
-        <h2>Mes compétences et centres d'intérêt</h2>
+    <div class="explore-layout">
+      <div class="filters-backdrop" id="filters-backdrop" hidden></div>
 
-        <ul>
-            <li>Sécurité</li>
-            <li>Interface utilisateur</li>
-            <li>Animation web</li>
-        </ul>
+      <aside class="filters-panel" id="filters-panel" aria-label="Filtres des balades">
+        <div class="filters-panel__header">
+          <div>
+            <p class="eyebrow">Affiner la recherche</p>
+            <h2>Filtres</h2>
+          </div>
+          <button class="filters-close" id="close-filters" type="button" aria-label="Fermer les filtres">×</button>
+        </div>
 
-        <h2>Mon GitHub</h2>
+        <form class="filters-form" id="filters-form" novalidate>
+          <fieldset class="filter-group">
+            <legend>Géographiques</legend>
 
-        <p>
-            Vous pouvez consulter mes projets et mon travail sur GitHub.
-        </p>
+            <label class="filter-field" for="region-filter">
+              <span>Région</span>
+              <select id="region-filter" name="region">
+                <option value="">Toutes les régions</option>
+                <option value="Vaud">Vaud</option>
+                <option value="Valais">Valais</option>
+                <option value="Fribourg">Fribourg</option>
+                <option value="Neuchâtel">Neuchâtel</option>
+                <option value="Jura">Jura</option>
+                <option value="Genève">Genève</option>
+              </select>
+            </label>
 
-        <a href="https://github.com/TheBalaboo/M291-Loic" target="_blank">
-            Voir mon GitHub
-        </a>
-    </main>
+            <div class="filter-field">
+              <span>Type de trajet</span>
+              <div class="segmented-control" role="group" aria-label="Type de trajet">
+                <button type="button" class="segment-button is-active" data-trip-type="" aria-pressed="true">Tous</button>
+                <button type="button" class="segment-button" data-trip-type="Boucle" aria-pressed="false">Boucle</button>
+                <button type="button" class="segment-button" data-trip-type="Aller simple" aria-pressed="false">Aller simple</button>
+              </div>
+            </div>
 
+            <label class="filter-field" for="departure-filter">
+              <span>Point de départ</span>
+              <input id="departure-filter" name="departure" type="text" placeholder="Ex. Lausanne">
+            </label>
+
+            <label class="filter-field arrival-field" id="arrival-field" for="arrival-filter">
+              <span>Point d’arrivée</span>
+              <input id="arrival-filter" name="arrival" type="text" placeholder="Ex. Montreux">
+              <small class="field-error" id="arrival-error"></small>
+            </label>
+          </fieldset>
+
+          <fieldset class="filter-group">
+            <legend>Temps et distance</legend>
+
+            <label class="filter-field" for="duration-filter">
+              <span>Durée maximale</span>
+              <select id="duration-filter" name="duration">
+                <option value="">Peu importe</option>
+                <option value="60">1 h</option>
+                <option value="120">2 h</option>
+                <option value="180">3 h</option>
+                <option value="240">4 h</option>
+                <option value="300">5 h</option>
+                <option value="480">8 h</option>
+              </select>
+            </label>
+
+            <div class="filter-field">
+              <span>Distance</span>
+              <div class="distance-fields">
+                <label>
+                  <span>Min.</span>
+                  <input id="distance-min" name="distanceMin" type="number" min="0" max="500" step="10" inputmode="numeric" placeholder="0">
+                </label>
+                <label>
+                  <span>Max.</span>
+                  <input id="distance-max" name="distanceMax" type="number" min="0" max="500" step="10" inputmode="numeric" placeholder="500">
+                </label>
+              </div>
+              <small class="field-error" id="distance-error"></small>
+            </div>
+          </fieldset>
+
+          <fieldset class="filter-group">
+            <legend>Parcours</legend>
+
+            <div class="filter-field">
+              <span>Difficulté</span>
+              <div class="category-buttons" role="group" aria-label="Difficulté">
+                <button type="button" class="category-button is-active" data-difficulty="" aria-pressed="true">Toutes</button>
+                <button type="button" class="category-button" data-difficulty="Facile" aria-pressed="false">Facile</button>
+                <button type="button" class="category-button" data-difficulty="Moyen" aria-pressed="false">Moyen</button>
+                <button type="button" class="category-button" data-difficulty="Difficile" aria-pressed="false">Difficile</button>
+              </div>
+            </div>
+
+            <label class="filter-field" for="route-filter">
+              <span>Type de route</span>
+              <select id="route-filter" name="routeType">
+                <option value="">Tous les types</option>
+                <option value="route secondaire">Route secondaire</option>
+                <option value="route de montagne">Route de montagne</option>
+                <option value="col">Col</option>
+                <option value="route panoramique">Route panoramique</option>
+                <option value="campagne">Campagne</option>
+                <option value="bord de lac">Bord de lac</option>
+              </select>
+            </label>
+
+            <label class="filter-field" for="landscape-filter">
+              <span>Paysage</span>
+              <select id="landscape-filter" name="landscape">
+                <option value="">Tous les paysages</option>
+                <option value="lac">Lac</option>
+                <option value="forêt">Forêt</option>
+                <option value="Alpes">Alpes</option>
+                <option value="Préalpes">Préalpes</option>
+                <option value="Jura">Jura</option>
+                <option value="campagne">Campagne</option>
+                <option value="vignes">Vignes</option>
+              </select>
+            </label>
+          </fieldset>
+
+          <div class="filter-feedback" id="filter-feedback" role="status" aria-live="polite"></div>
+
+          <div class="filter-actions">
+            <button class="apply-filters" type="submit">Appliquer la sélection</button>
+            <button class="reset-filters" type="reset">Réinitialiser</button>
+          </div>
+        </form>
+      </aside>
+
+      <section class="rides" aria-labelledby="rides-title">
+        <header class="section-heading">
+          <div>
+            <p class="eyebrow results-eyebrow">Résultats</p>
+            <h2 id="rides-title">Balades</h2>
+          </div>
+          <p class="results-count"><strong>0</strong> sur 0 itinéraire</p>
+        </header>
+
+        <div class="active-filters" id="active-filters" aria-live="polite"></div>
+
+        <div class="cards-grid" id="rides-list" aria-live="polite">
+          <p class="state-message">Chargement des balades...</p>
+        </div>
+      </section>
+    </div>
+
+    <section class="contact-section" aria-labelledby="contact-title">
+      <div class="contact-section__intro">
+        <p class="eyebrow">Une idée de balade ?</p>
+        <h2 id="contact-title">Proposer un itinéraire</h2>
+        <p>Un itinéraire manque à Trajectoire ? Envoie le nom de la balade et quelques informations utiles.</p>
+      </div>
+
+      <form class="contact-form" id="form-contact" novalidate>
+        <label class="contact-field" for="champ-nom">
+          <span>Votre nom</span>
+          <input id="champ-nom" name="nom" type="text" autocomplete="name" required>
+          <small class="field-error" id="nom-error"></small>
+        </label>
+
+        <label class="contact-field" for="champ-message">
+          <span>Votre proposition</span>
+          <textarea id="champ-message" name="message" rows="5" required placeholder="Nom de la balade, région, route à conseiller…"></textarea>
+          <small class="field-error" id="message-error"></small>
+        </label>
+
+        <button class="contact-submit" type="submit">Envoyer la proposition</button>
+        <p class="contact-confirmation" id="confirmation" role="status" aria-live="polite" hidden>Merci, votre proposition a bien été prise en compte.</p>
+      </form>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <p>© 2026 — Trajectoire</p>
+  </footer>
+
+  <script src="js/app.js"></script>
 </body>
-</html> 
+</html>

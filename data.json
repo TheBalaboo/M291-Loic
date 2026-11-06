@@ -1,0 +1,782 @@
+[
+  {
+    "id": 1,
+    "nom": "Tour du lac de Joux",
+    "regionPrincipale": "Vaud",
+    "distance": 68,
+    "dureeMinutes": 68,
+    "difficulte": "Moyen",
+    "typeTrajet": "Boucle",
+    "depart": "Le Sentier",
+    "arrivee": "Le Sentier",
+    "typesRoute": [
+      "route secondaire",
+      "lac",
+      "vallée"
+    ],
+    "paysages": [
+      "lac",
+      "forêt",
+      "Jura"
+    ],
+    "saisonnier": false,
+    "attention": "Route accessible toute l'année, avec prudence en conditions hivernales.",
+    "description": "Une boucle facile à lire autour du lac de Joux, avec routes calmes, forêts jurassiennes et plusieurs points de vue sur le lac.",
+    "image": "assets/images/route-lac.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Le+Sentier&destination=Le+Sentier&travelmode=driving&waypoints=Le+Brassus|Le+Pont%2C+Vaud|L%27Abbaye%2C+Vaud"
+  },
+  {
+    "id": 2,
+    "nom": "Marchairuz — Mollendruz",
+    "regionPrincipale": "Vaud",
+    "distance": 83,
+    "dureeMinutes": 83,
+    "difficulte": "Moyen",
+    "typeTrajet": "Boucle",
+    "depart": "Bière",
+    "arrivee": "Bière",
+    "typesRoute": [
+      "col",
+      "route de montagne",
+      "virages"
+    ],
+    "paysages": [
+      "Jura",
+      "forêt",
+      "lac"
+    ],
+    "saisonnier": true,
+    "attention": "Le Marchairuz et le Mollendruz peuvent être délicats ou fermés selon les conditions hivernales.",
+    "description": "Deux cols vaudois très appréciés à moto, avec un passage par la vallée de Joux et une succession de virages réguliers.",
+    "image": "assets/images/route-col.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Bi%C3%A8re&destination=Bi%C3%A8re&travelmode=driving&waypoints=Col+du+Marchairuz|Le+Sentier|Col+du+Mollendruz"
+  },
+  {
+    "id": 3,
+    "nom": "Col de la Tourne, Soliat & Mauborget",
+    "regionPrincipale": "Neuchâtel",
+    "distance": 81,
+    "dureeMinutes": 73,
+    "difficulte": "Moyen",
+    "typeTrajet": "Boucle",
+    "depart": "Neuchâtel",
+    "arrivee": "Neuchâtel",
+    "typesRoute": [
+      "col",
+      "route panoramique",
+      "virages"
+    ],
+    "paysages": [
+      "Jura",
+      "lac",
+      "falaises"
+    ],
+    "saisonnier": false,
+    "attention": "Certaines petites routes peuvent être plus lentes selon la saison.",
+    "description": "Une boucle jurassienne compacte entre le col de la Tourne, les hauts du Creux du Van et les balcons du lac de Neuchâtel.",
+    "image": "assets/images/route-col.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Neuch%C3%A2tel&destination=Neuch%C3%A2tel&travelmode=driving&waypoints=Col+de+la+Tourne|Soliat|Mauborget"
+  },
+  {
+    "id": 4,
+    "nom": "Tour du Mont-Pèlerin",
+    "regionPrincipale": "Vaud",
+    "distance": 53,
+    "dureeMinutes": 57,
+    "difficulte": "Facile",
+    "typeTrajet": "Boucle",
+    "depart": "Vevey",
+    "arrivee": "Vevey",
+    "typesRoute": [
+      "route secondaire",
+      "vignoble",
+      "route panoramique"
+    ],
+    "paysages": [
+      "lac",
+      "vignes",
+      "Préalpes"
+    ],
+    "saisonnier": false,
+    "attention": "Quelques traversées de villages et routes étroites.",
+    "description": "Une petite boucle idéale en fin de journée au-dessus de Vevey, entre vignobles, lac Léman et vues sur les Préalpes.",
+    "image": "assets/images/route-vignes.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Vevey&destination=Vevey&travelmode=driving&waypoints=Chardonne|Mont-P%C3%A8lerin|Chexbres"
+  },
+  {
+    "id": 5,
+    "nom": "Entre vignes et lac",
+    "regionPrincipale": "Vaud",
+    "distance": 74,
+    "dureeMinutes": 95,
+    "difficulte": "Facile",
+    "typeTrajet": "Boucle",
+    "depart": "Lausanne",
+    "arrivee": "Lausanne",
+    "typesRoute": [
+      "route secondaire",
+      "vignoble",
+      "bord de lac"
+    ],
+    "paysages": [
+      "lac",
+      "vignes",
+      "villages"
+    ],
+    "saisonnier": false,
+    "attention": "Trafic possible sur les axes du bord du lac aux heures de pointe.",
+    "description": "Une boucle accessible entre Lausanne, Lavaux et Vevey, pensée pour profiter des petites routes viticoles et des vues sur le Léman.",
+    "image": "assets/images/route-vignes.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Lausanne&destination=Lausanne&travelmode=driving&waypoints=Chexbres|Rivaz|Vevey"
+  },
+  {
+    "id": 6,
+    "nom": "Lausanne — Jaun — Les Mosses",
+    "regionPrincipale": "Vaud",
+    "distance": 230,
+    "dureeMinutes": 270,
+    "difficulte": "Moyen",
+    "typeTrajet": "Boucle",
+    "depart": "Lausanne",
+    "arrivee": "Lausanne",
+    "typesRoute": [
+      "col",
+      "route de montagne",
+      "route secondaire"
+    ],
+    "paysages": [
+      "Préalpes",
+      "forêt",
+      "alpages"
+    ],
+    "saisonnier": false,
+    "attention": "Le col des Mosses reste ouvert mais les conditions peuvent être hivernales.",
+    "description": "Une grande boucle depuis Lausanne par le Jaun, le Pays-d'Enhaut et le col des Mosses, très variée et typiquement romande.",
+    "image": "assets/images/route-col.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Lausanne&destination=Lausanne&travelmode=driving&waypoints=Jaun|Ch%C3%A2teau-d%27Oex|Col+des+Mosses"
+  },
+  {
+    "id": 7,
+    "nom": "Aigle — Les Mosses — Pillon — Château-d'Oex",
+    "regionPrincipale": "Vaud",
+    "distance": 132,
+    "dureeMinutes": 165,
+    "difficulte": "Moyen",
+    "typeTrajet": "Aller simple",
+    "depart": "Aigle",
+    "arrivee": "Château-d'Oex",
+    "typesRoute": [
+      "col",
+      "route de montagne",
+      "virages"
+    ],
+    "paysages": [
+      "Alpes",
+      "alpages",
+      "vallées"
+    ],
+    "saisonnier": false,
+    "attention": "Le Pillon et les Mosses sont ouverts toute l'année mais peuvent être enneigés.",
+    "description": "Un enchaînement très moto entre Aigle et le Pays-d'Enhaut, avec les cols des Mosses et du Pillon.",
+    "image": "assets/images/route-col.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Aigle&destination=Ch%C3%A2teau-d%27Oex&travelmode=driving&waypoints=Col+des+Mosses|Les+Diablerets|Col+du+Pillon"
+  },
+  {
+    "id": 8,
+    "nom": "Circuit des 3 cols",
+    "regionPrincipale": "Fribourg",
+    "distance": 185.63,
+    "dureeMinutes": 195,
+    "difficulte": "Facile",
+    "typeTrajet": "Boucle",
+    "depart": "Fribourg",
+    "arrivee": "Fribourg",
+    "typesRoute": [
+      "col",
+      "route de montagne",
+      "route secondaire"
+    ],
+    "paysages": [
+      "Préalpes",
+      "alpages",
+      "vallées"
+    ],
+    "saisonnier": false,
+    "attention": "Longue sortie malgré une difficulté routière modérée.",
+    "description": "Une boucle classique depuis Fribourg qui relie les Mosses, le Pillon et le Jaunpass avant de revenir vers la Sarine.",
+    "image": "assets/images/route-col.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Fribourg&destination=Fribourg&travelmode=driving&waypoints=Col+des+Mosses|Col+du+Pillon|Jaunpass"
+  },
+  {
+    "id": 9,
+    "nom": "Mosses — Jaun — Gurnigel",
+    "regionPrincipale": "Fribourg",
+    "distance": 218.62,
+    "dureeMinutes": 279,
+    "difficulte": "Moyen",
+    "typeTrajet": "Aller simple",
+    "depart": "Yvorne",
+    "arrivee": "Oron-la-Ville",
+    "typesRoute": [
+      "col",
+      "route de montagne",
+      "virages"
+    ],
+    "paysages": [
+      "Préalpes",
+      "alpages",
+      "forêt"
+    ],
+    "saisonnier": true,
+    "attention": "Le Gurnigel peut être soumis à des restrictions ou fermetures saisonnières.",
+    "description": "Une traversée généreuse des Préalpes par trois cols très différents, avec de nombreux changements de rythme et de paysages.",
+    "image": "assets/images/route-col.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Yvorne&destination=Oron-la-Ville&travelmode=driving&waypoints=Col+des+Mosses|Jaunpass|Gurnigelpass"
+  },
+  {
+    "id": 10,
+    "nom": "Fribourg — Vaud par les Préalpes",
+    "regionPrincipale": "Fribourg",
+    "distance": 168.83,
+    "dureeMinutes": 192,
+    "difficulte": "Facile",
+    "typeTrajet": "Boucle",
+    "depart": "Fribourg",
+    "arrivee": "Fribourg",
+    "typesRoute": [
+      "route secondaire",
+      "col",
+      "campagne"
+    ],
+    "paysages": [
+      "Préalpes",
+      "campagne",
+      "lac"
+    ],
+    "saisonnier": false,
+    "attention": "Le parcours alterne petites routes et axes plus roulants.",
+    "description": "Une boucle variée entre Fribourg, la Gruyère, les Mosses et la Riviera avant de revenir par la Veveyse et la Glâne.",
+    "image": "assets/images/route-col.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Fribourg&destination=Fribourg&travelmode=driving&waypoints=Bulle|Col+des+Mosses|Ch%C3%A2tel-Saint-Denis"
+  },
+  {
+    "id": 11,
+    "nom": "Lac de la Gruyère",
+    "regionPrincipale": "Fribourg",
+    "distance": 160,
+    "dureeMinutes": 163,
+    "difficulte": "Facile",
+    "typeTrajet": "Boucle",
+    "depart": "Fribourg",
+    "arrivee": "Fribourg",
+    "typesRoute": [
+      "route secondaire",
+      "lac",
+      "campagne"
+    ],
+    "paysages": [
+      "lac",
+      "Préalpes",
+      "campagne"
+    ],
+    "saisonnier": false,
+    "attention": "Trafic touristique possible autour de Gruyères et Broc.",
+    "description": "Une boucle accessible autour de la Gruyère, avec un mélange de campagne, de lac et de vues sur les Préalpes.",
+    "image": "assets/images/route-lac.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Fribourg&destination=Fribourg&travelmode=driving&waypoints=Broc|Charmey|Rossens"
+  },
+  {
+    "id": 12,
+    "nom": "Épalinges — Moléson — Lucens",
+    "regionPrincipale": "Vaud",
+    "distance": 120.54,
+    "dureeMinutes": 180,
+    "difficulte": "Facile",
+    "typeTrajet": "Boucle",
+    "depart": "Épalinges",
+    "arrivee": "Épalinges",
+    "typesRoute": [
+      "route secondaire",
+      "campagne",
+      "Préalpes"
+    ],
+    "paysages": [
+      "campagne",
+      "Préalpes",
+      "villages"
+    ],
+    "saisonnier": false,
+    "attention": "Parcours principalement rural, attention aux traversées de villages.",
+    "description": "Une boucle paisible entre les hauts de Lausanne, le Moléson, la Glâne et la Broye, adaptée à une sortie sans gros cols.",
+    "image": "assets/images/route-col.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=%C3%89palinges&destination=%C3%89palinges&travelmode=driving&waypoints=Mol%C3%A9son-sur-Gruy%C3%A8res|Romont|Lucens"
+  },
+  {
+    "id": 13,
+    "nom": "Broye — Vully — Fribourg",
+    "regionPrincipale": "Vaud",
+    "distance": 132,
+    "dureeMinutes": 165,
+    "difficulte": "Facile",
+    "typeTrajet": "Boucle",
+    "depart": "Payerne",
+    "arrivee": "Payerne",
+    "typesRoute": [
+      "campagne",
+      "route secondaire",
+      "collines"
+    ],
+    "paysages": [
+      "campagne",
+      "lac",
+      "villages"
+    ],
+    "saisonnier": false,
+    "attention": "Nombreuses zones agricoles et traversées de localités.",
+    "description": "Une boucle de plaine et de collines entre la Broye, le Vully, Fribourg et Romont, idéale pour une demi-journée tranquille.",
+    "image": "assets/images/route-vignes.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Payerne&destination=Payerne&travelmode=driving&waypoints=Mont+Vully|Fribourg|Romont"
+  },
+  {
+    "id": 14,
+    "nom": "Monthey — Pillon — Col de la Croix",
+    "regionPrincipale": "Valais",
+    "distance": 86.81,
+    "dureeMinutes": 120,
+    "difficulte": "Moyen",
+    "typeTrajet": "Boucle",
+    "depart": "Monthey",
+    "arrivee": "Monthey",
+    "typesRoute": [
+      "col",
+      "route de montagne",
+      "virages"
+    ],
+    "paysages": [
+      "Alpes",
+      "alpages",
+      "vallées"
+    ],
+    "saisonnier": true,
+    "attention": "Le col de la Croix ferme généralement en hiver.",
+    "description": "Une boucle courte mais très alpine depuis Monthey, avec le Pillon, le col de la Croix et la descente par Villars.",
+    "image": "assets/images/route-col.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Monthey&destination=Monthey&travelmode=driving&waypoints=Col+du+Pillon|Col+de+la+Croix|Villars-sur-Ollon"
+  },
+  {
+    "id": 15,
+    "nom": "Pas de Morgins — Évian",
+    "regionPrincipale": "Valais",
+    "distance": 125.42,
+    "dureeMinutes": 190,
+    "difficulte": "Moyen",
+    "typeTrajet": "Boucle",
+    "depart": "Monthey",
+    "arrivee": "Monthey",
+    "typesRoute": [
+      "col",
+      "route de montagne",
+      "bord de lac"
+    ],
+    "paysages": [
+      "Alpes",
+      "lac",
+      "forêt"
+    ],
+    "saisonnier": false,
+    "attention": "Le parcours passe en France : papiers et assurance valides nécessaires.",
+    "description": "Une boucle transfrontalière qui relie le Chablais valaisan, le Pas de Morgins, Abondance et le Léman avant de revenir par Saint-Gingolph.",
+    "image": "assets/images/route-lac.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Monthey&destination=Monthey&travelmode=driving&waypoints=Pas+de+Morgins|Abondance|%C3%89vian-les-Bains"
+  },
+  {
+    "id": 16,
+    "nom": "Promenade valaisanne",
+    "regionPrincipale": "Valais",
+    "distance": 175.84,
+    "dureeMinutes": 210,
+    "difficulte": "Moyen",
+    "typeTrajet": "Aller simple",
+    "depart": "Riddes",
+    "arrivee": "Sierre",
+    "typesRoute": [
+      "route de montagne",
+      "route secondaire",
+      "balcons"
+    ],
+    "paysages": [
+      "Alpes",
+      "vignobles",
+      "vallée"
+    ],
+    "saisonnier": false,
+    "attention": "Beaucoup de routes de coteau étroites et de villages.",
+    "description": "Une traversée du Valais par les routes de montagne plutôt que par la plaine, avec de nombreux panoramas sur la vallée du Rhône.",
+    "image": "assets/images/route-vignes.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Riddes&destination=Sierre&travelmode=driving&waypoints=Ovronnaz|Anz%C3%A8re|Crans-Montana"
+  },
+  {
+    "id": 17,
+    "nom": "Tour du Simplon",
+    "regionPrincipale": "Valais",
+    "distance": 140.61,
+    "dureeMinutes": 164,
+    "difficulte": "Moyen",
+    "typeTrajet": "Boucle",
+    "depart": "Brig",
+    "arrivee": "Brig",
+    "typesRoute": [
+      "col",
+      "route alpine",
+      "route internationale"
+    ],
+    "paysages": [
+      "Alpes",
+      "gorges",
+      "vallées"
+    ],
+    "saisonnier": false,
+    "attention": "Passage en Italie et circulation plus dense possible sur l'axe du Simplon.",
+    "description": "Une boucle alpine autour du Simplon avec une incursion en Italie, de longues courbes et des paysages très minéraux.",
+    "image": "assets/images/route-col.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Brig&destination=Brig&travelmode=driving&waypoints=Col+du+Simplon|Domodossola|Gondo"
+  },
+  {
+    "id": 18,
+    "nom": "Nufenen — Gothard — Furka",
+    "regionPrincipale": "Valais",
+    "distance": 300,
+    "dureeMinutes": 300,
+    "difficulte": "Difficile",
+    "typeTrajet": "Boucle",
+    "depart": "Brig",
+    "arrivee": "Brig",
+    "typesRoute": [
+      "haute montagne",
+      "cols",
+      "épingles"
+    ],
+    "paysages": [
+      "haute montagne",
+      "glaciers",
+      "vallées alpines"
+    ],
+    "saisonnier": true,
+    "attention": "Cols fermés en hiver et souvent jusqu'à la fin du printemps. Vérifier l'ouverture avant de partir.",
+    "description": "Une journée de grands cols alpins reliant le Nufenen, le Gothard et la Furka, avec beaucoup de dénivelé et des conditions changeantes.",
+    "image": "assets/images/route-col.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Brig&destination=Brig&travelmode=driving&waypoints=Nufenenpass|Gotthard+Pass|Furka+Pass"
+  },
+  {
+    "id": 19,
+    "nom": "Grand tour des 4 cols alpins",
+    "regionPrincipale": "Valais",
+    "distance": 326.5,
+    "dureeMinutes": 360,
+    "difficulte": "Difficile",
+    "typeTrajet": "Boucle",
+    "depart": "Sierre",
+    "arrivee": "Sierre",
+    "typesRoute": [
+      "haute montagne",
+      "cols",
+      "épingles"
+    ],
+    "paysages": [
+      "glaciers",
+      "lacs de barrage",
+      "haute montagne"
+    ],
+    "saisonnier": true,
+    "attention": "Longue boucle estivale uniquement : plusieurs cols ferment dès les premières neiges.",
+    "description": "Une boucle majeure depuis Sierre qui enchaîne Nufenen, Gothard, Susten et Grimsel avant de redescendre vers le Valais.",
+    "image": "assets/images/route-col.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Sierre&destination=Sierre&travelmode=driving&waypoints=Nufenenpass|Sustenpass|Grimselpass"
+  },
+  {
+    "id": 20,
+    "nom": "Valais — Tessin par Nufenen & Simplon",
+    "regionPrincipale": "Valais",
+    "distance": 377.31,
+    "dureeMinutes": 443,
+    "difficulte": "Difficile",
+    "typeTrajet": "Boucle",
+    "depart": "Sion",
+    "arrivee": "Sion",
+    "typesRoute": [
+      "haute montagne",
+      "col",
+      "longue distance"
+    ],
+    "paysages": [
+      "Alpes",
+      "lacs",
+      "vallées"
+    ],
+    "saisonnier": true,
+    "attention": "Parcours très long avec passage en Italie ; le Nufenen est saisonnier.",
+    "description": "Une grande boucle qui quitte le Valais par le Nufenen, descend au Tessin puis revient via l'Italie et le Simplon.",
+    "image": "assets/images/route-col.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Sion&destination=Sion&travelmode=driving&waypoints=Nufenenpass|Locarno|Col+du+Simplon"
+  },
+  {
+    "id": 21,
+    "nom": "Forclaz — Émosson",
+    "regionPrincipale": "Valais",
+    "distance": 95,
+    "dureeMinutes": 135,
+    "difficulte": "Moyen",
+    "typeTrajet": "Boucle",
+    "depart": "Martigny",
+    "arrivee": "Martigny",
+    "typesRoute": [
+      "col",
+      "route de montagne",
+      "route panoramique"
+    ],
+    "paysages": [
+      "Alpes",
+      "barrage",
+      "forêt"
+    ],
+    "saisonnier": true,
+    "attention": "La route d'Émosson peut fermer selon les conditions hivernales.",
+    "description": "Une boucle spectaculaire au-dessus de Martigny avec le col de la Forclaz et la montée jusqu'au barrage d'Émosson.",
+    "image": "assets/images/route-col.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Martigny&destination=Martigny&travelmode=driving&waypoints=Col+de+la+Forclaz|Finhaut|Barrage+d%27%C3%89mosson"
+  },
+  {
+    "id": 22,
+    "nom": "Val d'Anniviers",
+    "regionPrincipale": "Valais",
+    "distance": 112,
+    "dureeMinutes": 165,
+    "difficulte": "Moyen",
+    "typeTrajet": "Boucle",
+    "depart": "Sierre",
+    "arrivee": "Sierre",
+    "typesRoute": [
+      "route de montagne",
+      "vallée",
+      "virages"
+    ],
+    "paysages": [
+      "Alpes",
+      "villages",
+      "forêt"
+    ],
+    "saisonnier": false,
+    "attention": "Routes étroites et fréquentation touristique en haute saison.",
+    "description": "Une boucle dans le Val d'Anniviers entre Grimentz, Zinal et Saint-Luc, avec des routes en balcon et de nombreux virages.",
+    "image": "assets/images/route-col.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Sierre&destination=Sierre&travelmode=driving&waypoints=Grimentz|Zinal|Saint-Luc"
+  },
+  {
+    "id": 23,
+    "nom": "Val d'Hérens — Arolla",
+    "regionPrincipale": "Valais",
+    "distance": 118,
+    "dureeMinutes": 165,
+    "difficulte": "Moyen",
+    "typeTrajet": "Boucle",
+    "depart": "Sion",
+    "arrivee": "Sion",
+    "typesRoute": [
+      "route de montagne",
+      "vallée",
+      "route panoramique"
+    ],
+    "paysages": [
+      "Alpes",
+      "glaciers",
+      "villages"
+    ],
+    "saisonnier": false,
+    "attention": "Derniers kilomètres vers Arolla plus étroits et exposés aux conditions météo.",
+    "description": "Une montée profonde dans le Val d'Hérens jusqu'à Arolla, avec villages traditionnels, glaciers et une route de montagne progressive.",
+    "image": "assets/images/route-col.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Sion&destination=Sion&travelmode=driving&waypoints=Evol%C3%A8ne|Arolla|Les+Haud%C3%A8res"
+  },
+  {
+    "id": 24,
+    "nom": "Vue des Alpes — Brévine — Val-de-Travers",
+    "regionPrincipale": "Neuchâtel",
+    "distance": 167.76,
+    "dureeMinutes": 210,
+    "difficulte": "Moyen",
+    "typeTrajet": "Boucle",
+    "depart": "Neuchâtel",
+    "arrivee": "Neuchâtel",
+    "typesRoute": [
+      "col",
+      "route jurassienne",
+      "route secondaire"
+    ],
+    "paysages": [
+      "Jura",
+      "forêt",
+      "vallées"
+    ],
+    "saisonnier": false,
+    "attention": "La Brévine peut connaître des températures très basses hors saison estivale.",
+    "description": "Un grand tour du Haut-Neuchâtel qui combine la Vue des Alpes, la Brévine et le Val-de-Travers.",
+    "image": "assets/images/route-col.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Neuch%C3%A2tel&destination=Neuch%C3%A2tel&travelmode=driving&waypoints=La+Vue+des+Alpes|La+Br%C3%A9vine|Val-de-Travers"
+  },
+  {
+    "id": 25,
+    "nom": "Jura suisse & français",
+    "regionPrincipale": "Neuchâtel",
+    "distance": 228.35,
+    "dureeMinutes": 300,
+    "difficulte": "Moyen",
+    "typeTrajet": "Boucle",
+    "depart": "Bevaix",
+    "arrivee": "Bevaix",
+    "typesRoute": [
+      "route jurassienne",
+      "frontière",
+      "virages"
+    ],
+    "paysages": [
+      "Jura",
+      "forêt",
+      "Doubs"
+    ],
+    "saisonnier": false,
+    "attention": "Le parcours franchit la frontière française plusieurs fois.",
+    "description": "Une boucle très complète par La Tourne, Saignelégier, Goumois, les Brenets, la Brévine et le Val-de-Travers.",
+    "image": "assets/images/route-col.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Bevaix&destination=Bevaix&travelmode=driving&waypoints=Saignel%C3%A9gier|Goumois|La+Br%C3%A9vine"
+  },
+  {
+    "id": 26,
+    "nom": "Jura & Jura bernois",
+    "regionPrincipale": "Jura",
+    "distance": 136,
+    "dureeMinutes": 146,
+    "difficulte": "Moyen",
+    "typeTrajet": "Boucle",
+    "depart": "Delémont",
+    "arrivee": "Delémont",
+    "typesRoute": [
+      "gorges",
+      "cols jurassiens",
+      "route secondaire"
+    ],
+    "paysages": [
+      "Jura",
+      "gorges",
+      "forêt"
+    ],
+    "saisonnier": false,
+    "attention": "Quelques portions étroites et circulation locale dans les vallées.",
+    "description": "Une balade jurassienne centrée sur Saint-Ursanne, les Franches-Montagnes et le Jura bernois, avec gorges et petites routes.",
+    "image": "assets/images/route-col.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Del%C3%A9mont&destination=Del%C3%A9mont&travelmode=driving&waypoints=Saint-Ursanne|Saignel%C3%A9gier|Moutier"
+  },
+  {
+    "id": 27,
+    "nom": "Ajoie — Clos du Doubs — Franches-Montagnes",
+    "regionPrincipale": "Jura",
+    "distance": 142,
+    "dureeMinutes": 190,
+    "difficulte": "Moyen",
+    "typeTrajet": "Boucle",
+    "depart": "Porrentruy",
+    "arrivee": "Porrentruy",
+    "typesRoute": [
+      "route jurassienne",
+      "gorges",
+      "campagne"
+    ],
+    "paysages": [
+      "Doubs",
+      "forêt",
+      "plateaux"
+    ],
+    "saisonnier": false,
+    "attention": "Routes rurales avec changements de rythme fréquents.",
+    "description": "Une boucle qui relie l'Ajoie, le Clos du Doubs et les Franches-Montagnes avant de revenir par Delémont.",
+    "image": "assets/images/route-col.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Porrentruy&destination=Porrentruy&travelmode=driving&waypoints=Saint-Ursanne|Saignel%C3%A9gier|Del%C3%A9mont"
+  },
+  {
+    "id": 28,
+    "nom": "Neuchâtel — Gurnigel — Schwarzsee",
+    "regionPrincipale": "Neuchâtel",
+    "distance": 198.12,
+    "dureeMinutes": 240,
+    "difficulte": "Moyen",
+    "typeTrajet": "Boucle",
+    "depart": "Neuchâtel",
+    "arrivee": "Neuchâtel",
+    "typesRoute": [
+      "col",
+      "route secondaire",
+      "Préalpes"
+    ],
+    "paysages": [
+      "lac",
+      "Préalpes",
+      "campagne"
+    ],
+    "saisonnier": true,
+    "attention": "Le Gurnigel peut être fermé ou réglementé en hiver.",
+    "description": "Une longue boucle qui quitte le lac de Neuchâtel pour rejoindre le Gurnigel et le Schwarzsee avant de revenir par Fribourg.",
+    "image": "assets/images/route-lac.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Neuch%C3%A2tel&destination=Neuch%C3%A2tel&travelmode=driving&waypoints=Gurnigelpass|Schwarzsee|Fribourg"
+  },
+  {
+    "id": 29,
+    "nom": "Boucle des Trois Lacs",
+    "regionPrincipale": "Neuchâtel",
+    "distance": 269,
+    "dureeMinutes": 243,
+    "difficulte": "Facile",
+    "typeTrajet": "Boucle",
+    "depart": "Neuchâtel",
+    "arrivee": "Neuchâtel",
+    "typesRoute": [
+      "bord de lac",
+      "route secondaire",
+      "campagne"
+    ],
+    "paysages": [
+      "lacs",
+      "campagne",
+      "vignobles"
+    ],
+    "saisonnier": false,
+    "attention": "Sortie longue mais techniquement simple ; trafic possible autour des villes.",
+    "description": "Une grande boucle autour des lacs de Neuchâtel, Morat et Bienne, adaptée à une journée de roulage fluide.",
+    "image": "assets/images/route-lac.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Neuch%C3%A2tel&destination=Neuch%C3%A2tel&travelmode=driving&waypoints=Morat|Bienne|Yverdon-les-Bains"
+  },
+  {
+    "id": 30,
+    "nom": "Genève — Givrine — Marchairuz — Lausanne",
+    "regionPrincipale": "Genève",
+    "distance": 182,
+    "dureeMinutes": 230,
+    "difficulte": "Moyen",
+    "typeTrajet": "Aller simple",
+    "depart": "Genève",
+    "arrivee": "Lausanne",
+    "typesRoute": [
+      "col",
+      "route jurassienne",
+      "route secondaire"
+    ],
+    "paysages": [
+      "Jura",
+      "forêt",
+      "lac"
+    ],
+    "saisonnier": true,
+    "attention": "Conditions hivernales possibles sur les cols du Jura vaudois.",
+    "description": "Une traversée de Genève à Lausanne par les hauteurs du Jura vaudois, avec la Givrine et le Marchairuz avant de redescendre vers le Léman.",
+    "image": "assets/images/route-col.svg",
+    "googleMaps": "https://www.google.com/maps/dir/?api=1&origin=Gen%C3%A8ve&destination=Lausanne&travelmode=driving&waypoints=Col+de+la+Givrine|Col+du+Marchairuz|Morges"
+  }
+]

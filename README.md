@@ -1,29 +1,50 @@
 # M291 — Loïc Hermann
 
-Étudiant en médiamatique depuis 2025.
+Projet réalisé dans le cadre du module ICT 291.
 
-## Ce que je veux apprendre
+## Projet — Trajectoire
 
-- Sécurité
-- Interface utilisateur
-- Animation web
+**Trajectoire** est une application web permettant de trouver des balades à moto en Suisse romande grâce à une recherche et différents filtres.
 
-## Mon projet
+[Voir l'application](https://thebalaboo.github.io/M291-Loic/)
 
-**Trajectoire** est une application web permettant de trouver facilement des balades à moto en Suisse romande grâce à différents filtres.
+## Dossier design
 
-[Voir le dossier design](./Design/)
+Le dossier design contient le processus de conception du projet : pitch, persona, user flow, brief, wireframes, maquettes, tests utilisateurs et vérification des contrastes.
 
-## Mes 3 sites préférés
+[Voir le dossier design](./design/)
 
-- [GSAP](https://gsap.com/community/)
-- [Awwwards](https://www.awwwards.com/sites/)
-- [Terrain](https://terraink.app/)
+## Fonctionnalités
 
-## Comment me trouver
+- Base de données JSON de 30 balades
+- Chargement dynamique avec `fetch()`
+- Recherche instantanée
+- Filtres multicritères
+- Compteur dynamique de résultats
+- Gestion des états de chargement, succès, liste vide et erreur
+- Formulaire validé sans rechargement de la page
+- Interface responsive Mobile First
+- Micro-interactions
+- Prise en charge de `prefers-reduced-motion`
 
-**GitHub :** TheBalaboo
+## Technologies
+
+- HTML5
+- CSS
+- JavaScript natif
+- JSON
+- Fetch API
+
+## Ancienne page profil
+
+La page profil réalisée au début du module est conservée ici :
+
+[Voir la page profil S01](./s01-profil/)
+
+## Exercices précédents
+
+Les exercices réalisés durant les premières semaines du module sont conservés dans le dépôt.
 
 ## En ligne
 
-[Voir ma page profil](https://thebalaboo.github.io/M291-Loic/)
+[Ouvrir Trajectoire sur GitHub Pages](https://thebalaboo.github.io/M291-Loic/)
